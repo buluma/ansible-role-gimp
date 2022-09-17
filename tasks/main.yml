@@ -1,17 +1,17 @@
 ---
 # tasks file for gimp
-- name: update Cache on debian.
+- name: Update Cache on debian.
   ansible.builtin.apt:
     update_cache: true
     cache_valid_time: 3600
   when: ansible_os_family == 'Debian'
 
-- name: install software using package
+- name: Install software using package
   ansible.builtin.package:
     name: "{{ gimp_packages }}"
     state: present
 
-- name: start dbus-broker
+- name: Start dbus-broker
   ansible.builtin.service:
     name: dbus-broker
     state: started
