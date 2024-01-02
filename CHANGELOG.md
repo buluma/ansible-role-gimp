@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-gimp/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.1.1...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#6](https://github.com/buluma/ansible-role-gimp/issues/6)
+
+## [0.1.1](https://github.com/buluma/ansible-role-gimp/tree/0.1.1) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.1.0...0.1.1)
+
 ## [0.1.0](https://github.com/buluma/ansible-role-gimp/tree/0.1.0) (2023-12-25)
 
 [Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/1843295653df0f2b516d259019bfd3ab39d07688...0.1.0)
