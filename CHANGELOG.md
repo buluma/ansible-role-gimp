@@ -1,11 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-gimp/tree/HEAD)
+## [0.3.0](https://github.com/buluma/ansible-role-gimp/tree/0.3.0) (2024-01-17)
 
-[Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.2.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.2.0...0.3.0)
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#10](https://github.com/buluma/ansible-role-gimp/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#9](https://github.com/buluma/ansible-role-gimp/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#8](https://github.com/buluma/ansible-role-gimp/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 
