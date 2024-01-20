@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-gimp/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#11](https://github.com/buluma/ansible-role-gimp/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.3.0](https://github.com/buluma/ansible-role-gimp/tree/0.3.0) (2024-01-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-gimp/compare/0.2.0...0.3.0)
