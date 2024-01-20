@@ -1,7 +1,6 @@
 ---
 galaxy_info:
-  author: Michael Buluma
-  namespace: buluma
+  author: buluma
   role_name: gimp
   description: Install gimp on your system.
   license: Apache-2.0
@@ -11,7 +10,8 @@ galaxy_info:
   platforms:
     - name: Fedora
       versions:
-        - all
+        - "38"
+        - "39"
     - name: opensuse
       versions:
         - all
