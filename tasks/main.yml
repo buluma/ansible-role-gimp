@@ -15,7 +15,7 @@
   ansible.builtin.service:
     name: dbus-broker
     state: started
-    enabled: yes
+    enabled: true
   when:
     - ansible_distribution == "Fedora"
     - ansible_distribution_major_version | int > 33
