@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#19](https://github.com/buluma/ansible-role-gimp/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#18](https://github.com/buluma/ansible-role-gimp/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-gimp/tree/24.3.31) (2024-03-29)
@@ -24,6 +25,7 @@
 
 **Merged pull requests:**
 
+- Bump dependabot/fetch-metadata from 1 to 2 [\#17](https://github.com/buluma/ansible-role-gimp/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#11](https://github.com/buluma/ansible-role-gimp/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-gimp/tree/0.3.0) (2024-01-17)
