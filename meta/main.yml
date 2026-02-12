@@ -1,28 +1,23 @@
----
 galaxy_info:
   author: buluma
   role_name: gimp
   description: Install gimp on your system.
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: Fedora
-      versions:
-        - "38"
-        - "39"
-    - name: opensuse
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
-
+  - name: Fedora
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
-    - vim
-    - server
-    - sudo
-    - system
-
+  - vim
+  - server
+  - sudo
+  - system
 dependencies: []

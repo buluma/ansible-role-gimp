@@ -1,10 +1,10 @@
-# Ansible role [gimp](https://galaxy.ansible.com/ui/standalone/roles/buluma/gimp/documentation)
+# [Ansible role gimp](#ansible-role-gimp)
 
 Install gimp on your system.
 
-|GitHub|Version|Issues|Pull Requests|Downloads|
-|------|-------|------|-------------|---------|
-|[![github](https://github.com/buluma/ansible-role-gimp/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-gimp/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gimp.svg)](https://github.com/buluma/ansible-role-gimp/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-gimp.svg)](https://github.com/buluma/ansible-role-gimp/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-gimp.svg)](https://github.com/buluma/ansible-role-gimp/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/gimp)](https://galaxy.ansible.com/ui/standalone/roles/buluma/gimp/documentation)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-gimp/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-gimp/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-gimp/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-gimp)|[![downloads](https://img.shields.io/ansible/role/d/buluma/gimp)](https://galaxy.ansible.com/buluma/gimp)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gimp.svg)](https://github.com/buluma/ansible-role-gimp/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -179,10 +179,9 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
-
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-gimp/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -191,26 +190,23 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Fedora](https://hub.docker.com/r/buluma/fedora)|38, 39|
+|[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
 |[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-gimp/issues)
-
-## [Changelog](#changelog)
-
-[Role History](https://github.com/buluma/ansible-role-gimp/blob/master/CHANGELOG.md)
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-gimp/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-gimp/blob/master/LICENSE)
+[Apache-2.0](https://github.com/buluma/ansible-role-gimp/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Shadow Walker](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
+
