@@ -15,4 +15,4 @@ _gimp_packages:
   RedHat:
     - gimp
 
-gimp_packages: "{{ _gimp_packages[ansible_distribution] | default(_gimp_packages[ansible_os_family] | default(_gimp_packages['default'] )) }}"
+gimp_packages: "{{ _gimp_packages[ansible_distribution] | default(_gimp_packages[ansible_os_family] | default(_gimp_packages['default'])) }}"
