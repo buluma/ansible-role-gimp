@@ -1,10 +1,10 @@
 ---
-  - name: Verify
-    hosts: all
-    remote_user: root
-    become: true
-    tasks:
-      - name: Check gimp version
-        ansible.builtin.command: gimp --version
-        register: result
-        changed_when: result is not succeeded
+- name: Verify
+  hosts: all
+  remote_user: root
+  become: true
+  tasks:
+  - name: Check gimp version
+    ansible.builtin.command: gimp --version
+    register: result
+    changed_when: result is not succeeded
