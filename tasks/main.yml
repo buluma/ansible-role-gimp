@@ -4,7 +4,7 @@
   ansible.builtin.apt:
     update_cache: true
     cache_valid_time: 3600
-  when: ansible_facts.os_family == 'Debian'
+  when: ansible_facts['os_family'] == 'Debian'
 
 - name: Install software using package
   ansible.builtin.package:
@@ -17,5 +17,5 @@
     state: started
     enabled: true
   when:
-    - ansible_facts.distribution == "Fedora"
-    - ansible_facts.distribution_major_version | int > 33
+    - ansible_facts['distribution'] == "Fedora"
+    - ansible_facts['distribution_major_version'] | int > 33
